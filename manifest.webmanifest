@@ -1,0 +1,21 @@
+{
+  "name": "GrInnZoVe - Raccolta dati LCA v2",
+  "short_name": "LCA GrInnZoVe",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f9f2",
+  "theme_color": "#78ad64",
+  "description": "Web app per la raccolta dati aziendali destinati ad analisi LCA",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#78ad64">
+  <meta name="description" content="Raccolta dati aziendali per analisi LCA - progetto GrInnZoVe">
+  <title>GrInnZoVe · Raccolta dati LCA</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn mobile-menu" id="menuBtn" aria-label="Apri menu">☰</button>
+    <div class="brand">
+      <img src="grinnzove-logo.png" alt="GrInnZoVe" class="brand-logo">
+      <div class="brand-copy">
+        <h1>Raccolta dati LCA</h1>
+        <p>GrInnZoVe · Aziende bovine da carne</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span class="storage-chip" id="storageChip">Dati locali</span>
+      <button class="btn btn-soft" id="homeBtn">Home</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-head">
+        <span class="eyebrow">Inserimento dati</span>
+        <strong>Moduli LCA</strong>
+      </div>
+      <nav id="nav"></nav>
+      <div class="side-partners">
+        <img src="unicarve-logo.jpg" alt="UNICARVE">
+        <img src="dafnae-logo.png" alt="DAFNAE">
+      </div>
+    </aside>
+
+    <main id="main"></main>
+  </div>
+
+  <div id="toast" class="toast" role="status"></div>
+  <input id="backupImport" type="file" accept=".json,application/json" hidden>
+
+  <script src="app.js"></script>
+</body>
+</html>
